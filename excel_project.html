@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excel Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ===== Page Style ===== */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+        }
+
+        /* Header */
+        .header {
+            background: #1d6f42;
+            /* Excel green */
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        /* Grid layout */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        /* Project Card */
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        /* Hover effect */
+        .card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Image */
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        /* Content */
+        .card-content {
+            padding: 20px;
+        }
+
+        .card h3 {
+            margin: 0 0 10px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 14px;
+            background: #1d6f42;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .btnDownload {
+            display: inline-block;
+            margin-top: 12px;
+            padding: 8px 14px;
+            background: #029da8;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .btn:hover {
+            background: #145a32;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+
+        <div class="logo">
+            <img src="image/B3Logo.png" alt="Logo">
+        </div>
+
+        <div class="menu-toggle" id="mobile-menu">
+            ☰
+        </div>
+
+        <div class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+
+                <li class="dropdown">
+                    <a href="#">Project</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="python_project.html">Python Project</a></li>
+                        <li><a href="excel_project.html">Excel Project</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="header">
+        <h1>Excel Projects 📊</h1>
+        <p>Explore my Excel, VBA & Automation work</p>
+    </div>
+
+    <div class="container">
+
+        <div class="projects">
+
+            <!-- Project 1 -->
+            <div class="card">
+                <img src="image/csat.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>CSAT Micro</h3>
+                    <p>This micro take two excel input file and generate the desire output.</p>
+                    <a href="#" class="btn">View Project</a>
+                    <a href="Excel/CSAT_Micro.xlsm" download class="btnDownload">Download Tool 📥</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="card">
+                <img src="image/SQL_Connector.png" alt="Project Image">
+                <div class="card-content">
+                    <h3>SQL Connector</h3>
+                    <p>This tool extract the data from Sql sever.</p>
+                    <a href="#" class="btn">View Project</a>
+                    <a href="Excel/SqlConnector.xlsm" download class="btnDownload">Download Tool 📥</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="card">
+                <img src="image/excel3.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>Data Cleaning Tool</h3>
+                    <p>Removes duplicates and formats raw datasets automatically.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="card">
+                <img src="image/excel4.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>Financial Calculator</h3>
+                    <p>Loan, EMI, and investment calculator using formulas.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="card">
+                <img src="image/excel5.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>Report Generator</h3>
+                    <p>Automatically creates formatted reports from raw data.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="card">
+                <img src="image/excel6.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>Inventory Management</h3>
+                    <p>Track stock levels and generate alerts using Excel.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Project 7 -->
+            <div class="card">
+                <img src="image/excel6.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>Inventory Management</h3>
+                    <p>Track stock levels and generate alerts using Excel.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Project 8 -->
+            <div class="card">
+                <img src="image/excel6.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>Inventory Management</h3>
+                    <p>Track stock levels and generate alerts using Excel.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+            <!-- Project 9 -->
+            <div class="card">
+                <img src="image/excel6.jpg" alt="Project Image">
+                <div class="card-content">
+                    <h3>Inventory Management</h3>
+                    <p>Track stock levels and generate alerts using Excel.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
